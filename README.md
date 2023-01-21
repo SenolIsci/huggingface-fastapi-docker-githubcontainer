@@ -1,4 +1,4 @@
-# 🤗 huggingface fastapi docker
+# 🤗 huggingface fastapi docker github container
 
 create a container and package it with GitHub Actions. This repository gives you a good starting point for a Dockerfile, GitHub Actions workflow, and Python code.
 
