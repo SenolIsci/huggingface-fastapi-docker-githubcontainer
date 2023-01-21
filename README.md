@@ -36,5 +36,11 @@ select Docker image for configuration,and edit it as main.yml accordingly
 then go to actions tab and select newly created workflow "CI" from left paneland `run workflow`
 
 
+how to use newly build container:
+
+docker pull ghcr.io/senolisci/huggingface-fastapi-docker-githubcontainer:latest
+docker run -p 8000:8000 --name ml-fastapi ghcr.io/senolisci/huggingface-fastapi-docker-githubcontainer:latest
+
+
 
 
